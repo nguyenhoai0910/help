@@ -30,4 +30,4 @@ sudo mount -t cifs //10.96.59.18/trulyonline/CTQT_Pilot . -o username=trulyonlin
 ```
 enterpassword:
  
-
+# 

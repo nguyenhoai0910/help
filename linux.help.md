@@ -19,3 +19,13 @@ ERROR: Get "https://mcr.microsoft.com/v2/": tls: failed to verify certificate: x
 mkdir -p /etc/docker/certs.d/mcr.microsoft.com
 openssl s_client -showcerts -connect mcr.microsoft.com:443 < /dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > /etc/docker/certs.d/mcr.microsoft.com/ca.crt
 ```
+
+## 3. tar and remove file log
+```bash
+tar -cf files.tar my_directory --remove-files
+```
+example:
+```log
+tar -cf monitor.sh.202310.tar monitor.sh.202310* --remove-files
+-f, --file=ARCHIVE         use archive file or device ARCHIVE
+```

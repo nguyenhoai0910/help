@@ -1,4 +1,4 @@
-##
+## Decriptions
 ### 1. Branch
 Các Branch (nhánh) đại diện cho các phiên bản cụ thể của một kho lưu trữ tách ra từ project chính của bạn.
 Branch cho phép bạn theo dõi các thay đổi thử nghiệm bạn thực hiện đối với kho lưu trữ và có thể hoàn nguyên về các phiên bản cũ hơn.
@@ -62,8 +62,7 @@ Tags cung cấp cho bạn một cách để theo dõi các commit quan trọng. 
 ### 19. Upstream
 Trong ngữ cảnh của Git, upstream đề cập đến nơi bạn push các thay đổi của mình, thường là nhánh chính (master branch).
 
-##
-Các lệnh git cơ bản
+## Các lệnh git cơ bản
 ## 1) git config
 Tác dụng : Để set user name và email của bạn trong main configuration file.
 Cách xài : Để kiểm tra tên và kiểu email trong cấu hình dùng git config -- global user.name và git config -- global user.email. Để set email hoặc tên mới git config -- global user.name = “Hải Nguyễn” và git config -- global user.email = “hainguyen@gmail.com”

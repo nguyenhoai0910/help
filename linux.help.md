@@ -19,6 +19,7 @@ ERROR: Get "https://mcr.microsoft.com/v2/": tls: failed to verify certificate: x
 mkdir -p /etc/docker/certs.d/mcr.microsoft.com
 openssl s_client -showcerts -connect mcr.microsoft.com:443 < /dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > /etc/docker/certs.d/mcr.microsoft.com/ca.crt
 ```
+<<<<<<< HEAD
 ```bash
 mkdir -p /etc/docker/certs.d/www.scootersoftware.com
 openssl s_client -showcerts -connect www.scootersoftware.com:443 < /dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > /etc/docker/certs.d/www.scootersoftware.com/ca.crt
@@ -31,3 +32,15 @@ sudo mount -t cifs //10.96.59.18/trulyonline/CTQT_Pilot . -o username=trulyonlin
 enterpassword:
  
 # 
+=======
+
+## 3. tar and remove file log
+```bash
+tar -cf files.tar my_directory --remove-files
+```
+example:
+```log
+tar -cf monitor.sh.202310.tar monitor.sh.202310* --remove-files
+-f, --file=ARCHIVE         use archive file or device ARCHIVE
+```
+>>>>>>> de93b2569d2b59cd21b956536483dcadadf62a5c

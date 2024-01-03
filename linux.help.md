@@ -112,6 +112,7 @@ sudo timedatectl set-timezone Asia/Ho_Chi_Minh
 # ln -s /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime
 ```
 ```bash
+root@hoainh:/home/hoainh# cat /etc/ntp.conf
 # Specify one or more NTP servers.
 server DC-ADDS10.ocb.vn
 server DR-ADDS10.ocb.vn

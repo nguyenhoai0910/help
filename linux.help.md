@@ -39,23 +39,28 @@ example:
 tar -cf monitor.sh.202310.tar monitor.sh.202310* --remove-files
 -f, --file=ARCHIVE         use archive file or device ARCHIVE
 ```
+
+
 ## 4. NTP client & /etc/chrony.conf
 Config:
 ```bash
+sudo timedatectl set-ntp true 
+sudo timedatectl set-timezone Asia/Ho_Chi_Minh
+# rm -f /etc/localtime
+# ln -s /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime
+
+sudo apt install chrony
+
 [soadmin@A1B-PCIBBONDS-API1 ~]$ cat /etc/chrony.conf
 # Use public servers from the pool.ntp.org project.
 # Please consider joining the pool (https://www.pool.ntp.org/join.html).
 #pool 2.pool.ntp.org iburst
 server DC-ADDS10.ocb.vn iburst
 server DR-ADDS10.ocb.vn iburst
-
-# Use NTP servers from DHCP.
-sourcedir /run/chrony-dhcp
 ```
 
 Command line check:
 ```bash
-root@hoainh:/home/hoainh# systemctl restart chronyc
 
 chronyc sources -v
 chronyc sourcestats

@@ -105,7 +105,7 @@ Leap status     : Normal
 
 NTP:
 ```bash
-apt install systemd-timesyncd ntp
+apt install systemd-timesyncd -y
 sudo timedatectl set-ntp true 
 sudo timedatectl set-timezone Asia/Ho_Chi_Minh
 # rm -f /etc/localtime
@@ -119,4 +119,11 @@ server DR-ADDS10.ocb.vn
 # Use servers from the NTP Pool Project. Approved by Ubuntu Technical Board
 # on 2011-02-08 (LP: #104525). See http://www.pool.ntp.org/join.html for
 # more information.
+
+root@hoainh:/home/hoainh# ntpq -p
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+ DC-ADDS10.ocb.v 10.97.150.51     3 u    9   64    1    0.931   57.023   0.000
+ DR-ADDS10.ocb.v 10.96.150.10     4 u    8   64    1    1.813   57.401   0.000
+
 ```

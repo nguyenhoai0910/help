@@ -111,3 +111,11 @@ sudo timedatectl set-timezone Asia/Ho_Chi_Minh
 # rm -f /etc/localtime
 # ln -s /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime
 ```
+```bash
+# Specify one or more NTP servers.
+server DC-ADDS10.ocb.vn
+server DR-ADDS10.ocb.vn
+# Use servers from the NTP Pool Project. Approved by Ubuntu Technical Board
+# on 2011-02-08 (LP: #104525). See http://www.pool.ntp.org/join.html for
+# more information.
+```

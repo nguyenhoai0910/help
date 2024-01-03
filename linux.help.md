@@ -101,3 +101,9 @@ Root dispersion : 0.027695538 seconds
 Update interval : 64.8 seconds
 Leap status     : Normal
 ```
+
+
+
+```bash
+apt install systemd-timesyncd ntp
+```

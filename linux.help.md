@@ -103,7 +103,11 @@ Leap status     : Normal
 ```
 
 
-
+NTP:
 ```bash
 apt install systemd-timesyncd ntp
+sudo timedatectl set-ntp true 
+sudo timedatectl set-timezone Asia/Ho_Chi_Minh
+# rm -f /etc/localtime
+# ln -s /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime
 ```

@@ -37,15 +37,16 @@ Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char Dec  Oct 
 (us)   31 0037 0x1f | ?      63 0077 0x3f | _      95 0137 0x5f | (del) 127 0177 0x7f
 ```
 ```
-ASCII |	Name Description |	C Escape Sequence
-nul |	null byte |	\0
-bel |	bell character |	\a
-bs |	backspace |	\b
-ht |	horizontal tab |	\t
-np |	formfeed | \f
-nl |	newline |	\n
-cr |	carriage return |	\r
-vt |	vertical tab |	
-esc |	escape 	|
-sp |	space 	|
+|ASCII |	Name Description |	C Escape Sequence|
+|-------|----------------------|----------------|
+|nul |	null byte |	\0|
+|bel |	bell character |	\a|
+|bs |	backspace |	\b|
+|ht |	horizontal tab |	\t|
+|np |	formfeed | \f|
+|nl |	newline |	\n|
+|cr |	carriage return |	\r|
+|vt |	vertical tab |	|
+|esc |	escape 	|  |
+|sp |	space 	|  |
 ```

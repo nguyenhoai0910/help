@@ -1,4 +1,8 @@
-[## 1. Tls: failed to verify certificate: x509: certificate](#1-tls-failed-to-verify-certificate-x509-certificate)
+[1. Tls: failed to verify certificate: x509: certificate](#1-tls-failed-to-verify-certificate-x509-certificate)
+[2. Mount window folder nfs to linux](#2-mount-window-folder-nfs-to-linux)
+[3. tar and remove file log](#3-tar-and-remove-file-log)
+[4. NTP client & /etc/chrony.conf](#4-ntp-client--etcchronyconf)
+[5. Generate a public/private key pair with OpenSSH](#5-generate-a-publicprivate-key-pair-with-openssh)
 
 ## 1. Tls: failed to verify certificate: x509: certificate 
 ### First create an empty json fil

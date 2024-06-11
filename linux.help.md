@@ -118,7 +118,7 @@ example:
 sudo mkdir -p /usr/bin/sshkey/
 ssh-keygen -t ed25519 -C "pc.ssh"
 ```
-Your private key in ~/.ssh/id_ed25519
+Your private key in ~/.ssh/id_ed25519 \
 Your public key in ~/.ssh/id_ed25519.pub
 
 If you forgot to add a password to your private key or if you want to change the password later on, you can add a (new) password to your existing private key with:

@@ -36,6 +36,7 @@ Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char Dec  Oct 
 (rs)   30 0036 0x1e | >      62 0076 0x3e | ^      94 0136 0x5e | ~     126 0176 0x7e
 (us)   31 0037 0x1f | ?      63 0077 0x3f | _      95 0137 0x5f | (del) 127 0177 0x7f
 ```
+```
 ASCII Name 	Description 	C Escape Sequence
 nul 	null byte 	\0
 bel 	bell character 	\a
@@ -47,3 +48,4 @@ cr 	carriage return 	\r
 vt 	vertical tab 	
 esc 	escape 	
 sp 	space 	
+```

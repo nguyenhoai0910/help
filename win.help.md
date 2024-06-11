@@ -1,11 +1,14 @@
 # Window help
+[1. Switch Command Prompt and PowerShell on the Win+X Menu](#1-switch-command-prompt-and-powershell-on-the-winx-menu)
+[2. CHECK permission user](#2-check-permission-user)
+
 ## 1. Switch Command Prompt and PowerShell on the Win+X Menu
 - Open Windows Settings by pressing Win+I. Select Personalization.
 - From the Personalization applet, select Taskbar. 
 - Select the option to Replace Command Prompt with Windows PowerShell in the menu when I right-click the start button or press Windows key+X. 
 - Select OK, and then close Windows Settings. 
 
-## 2. CHECK permission user:
+## 2. CHECK permission user
 icacls folder/file name
 
 PS F:\Website> icacls F:\Website

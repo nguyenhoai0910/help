@@ -1,5 +1,5 @@
 # Window help
-[1. Switch Command Prompt and PowerShell on the Win+X Menu](#1-switch-command-prompt-and-powershell-on-the-winx-menu) (br/)
+[1. Switch Command Prompt and PowerShell on the Win+X Menu](#1-switch-command-prompt-and-powershell-on-the-winx-menu) <br/>
 [2. CHECK permission user](#2-check-permission-user)
 
 ## 1. Switch Command Prompt and PowerShell on the Win+X Menu

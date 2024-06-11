@@ -108,3 +108,24 @@ Root dispersion : 0.027695538 seconds
 Update interval : 64.8 seconds
 Leap status     : Normal
 ```
+
+## 5. Generate a public/private key pair with OpenSSH
+```bash
+ssh-keygen -t ed25519 -C "your_comment_see_below"
+```
+example:
+```bash
+sudo mkdir -p /usr/bin/sshkey/
+ssh-keygen -t ed25519 -C "pc.ssh"
+```
+Your private key in ~/.ssh/id_ed25519
+Your public key in ~/.ssh/id_ed25519.pub
+
+If you forgot to add a password to your private key or if you want to change the password later on, you can add a (new) password to your existing private key with:
+```bash
+ssh-keygen -p -f ~/.ssh/id_ed25519
+```
+
+  
+
+## 6. ####

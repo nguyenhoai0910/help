@@ -1,6 +1,4 @@
-* [1.Tls: failed to verify certificate: x509: certificate](#1.Tls: failed to verify certificate: x509: certificate )
-* [Getting Started](#getting-started)
-* [Routing](#routing)
+[## 1. Tls: failed to verify certificate: x509: certificate](#1-tls-failed-to-verify-certificate-x509-certificate)
 
 ## 1. Tls: failed to verify certificate: x509: certificate 
 ### First create an empty json fil

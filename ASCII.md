@@ -36,17 +36,20 @@ Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char Dec  Oct 
 (rs)   30 0036 0x1e | >      62 0076 0x3e | ^      94 0136 0x5e | ~     126 0176 0x7e
 (us)   31 0037 0x1f | ?      63 0077 0x3f | _      95 0137 0x5f | (del) 127 0177 0x7f
 ```
+
+## General ASCII Codes
 ```
-| ASCII |	Name Description |	C Escape Sequence|
-|-------|----------------------|----------------|
-| nul |	null byte | \0 |
-| bel |	bell character | \a |
-| bs |	backspace | \b |
-| ht |	horizontal tab | \t |
-| np |	formfeed | \f |
-| nl |	newline |	\n |
-| cr |	carriage return |	\r |
-| vt |	vertical tab |	|
-| esc |	escape 	|  |
-| sp |	space 	|  |
+| Name  | decimal | octal | hex  | C-escape | Ctrl-Key | Description                    |
+| ----- | ------- | ----- | ---- | -------- | -------- | ------------------------------ |
+| `BEL` | 7       | 007   | 0x07 | `\a`     | `^G`     | Terminal bell                  |
+| `BS`  | 8       | 010   | 0x08 | `\b`     | `^H`     | Backspace                      |
+| `HT`  | 9       | 011   | 0x09 | `\t`     | `^I`     | Horizontal TAB                 |
+| `LF`  | 10      | 012   | 0x0A | `\n`     | `^J`     | Linefeed (newline)             |
+| `VT`  | 11      | 013   | 0x0B | `\v`     | `^K`     | Vertical TAB                   |
+| `FF`  | 12      | 014   | 0x0C | `\f`     | `^L`     | Formfeed (also: New page `NP`) |
+| `CR`  | 13      | 015   | 0x0D | `\r`     | `^M`     | Carriage return                |
+| `ESC` | 27      | 033   | 0x1B | `\e`[*](#escape) | `^[` | Escape character           |
+| `DEL` | 127     | 177   | 0x7F | `<none>` | `<none>` | Delete character               |
 ```
+
+

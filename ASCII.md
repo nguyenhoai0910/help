@@ -1,6 +1,6 @@
 Table of ASCII Characters
 This table lists the ASCII characters and their decimal, octal and hexadecimal numbers. Characters which appear as names in parentheses (e.g., (nl)) are non-printing characters. A table of the common non-printing characters appears after this table.
-
+```
 Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char Dec  Oct   Hex
 -------------------------------------------------------------------------------------
 (nul)   0 0000 0x00 | (sp)   32 0040 0x20 | @      64 0100 0x40 | `      96 0140 0x60
@@ -35,7 +35,7 @@ Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char Dec  Oct 
 (gs)   29 0035 0x1d | =      61 0075 0x3d | ]      93 0135 0x5d | }     125 0175 0x7d
 (rs)   30 0036 0x1e | >      62 0076 0x3e | ^      94 0136 0x5e | ~     126 0176 0x7e
 (us)   31 0037 0x1f | ?      63 0077 0x3f | _      95 0137 0x5f | (del) 127 0177 0x7f
-
+```
 
 ## General ASCII Codes
 

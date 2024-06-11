@@ -1,11 +1,15 @@
-# 1.Tls: failed to verify certificate: x509: certificate 
-## First create an empty json fil
+* [1.Tls: failed to verify certificate: x509: certificate](#1.Tls: failed to verify certificate: x509: certificate )
+* [Getting Started](#getting-started)
+* [Routing](#routing)
+
+## 1. Tls: failed to verify certificate: x509: certificate 
+### First create an empty json fil
 ```bash
 cat << EOF > /etc/docker/daemon.json
 { }
 EOF
 ```
-## Run the following to add certs
+### Run the following to add certs
 ```bash
 openssl s_client -showcerts -connect [registry_address]:[registry_port] < /dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > /etc/docker/certs.d/[registry_address]/ca.crt
 ```
@@ -24,7 +28,7 @@ mkdir -p /etc/docker/certs.d/www.scootersoftware.com
 openssl s_client -showcerts -connect www.scootersoftware.com:443 < /dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > /etc/docker/certs.d/www.scootersoftware.com/ca.crt
 ```
 
-# 2. Mount window folder nfs to linux
+## 2. Mount window folder nfs to linux
 ```bash
 sudo mount -t cifs //10.96.59.18/trulyonline/CTQT_Pilot . -o username=trulyonline
 ```

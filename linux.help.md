@@ -135,4 +135,9 @@ ssh-keygen -p -f ~/.ssh/id_ed25519
 
   
 
-## 6. ####
+## 6. Remove package and delete all  
+```
+sudo apt-get remove --purge packagename
+```
+
+## 7. ####

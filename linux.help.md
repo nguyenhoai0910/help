@@ -4,6 +4,7 @@
 [3. tar and remove file log](#3-tar-and-remove-file-log) <br/>
 [4. NTP client & /etc/chrony.conf](#4-ntp-client--etcchronyconf) <br/>
 [5. Generate a public/private key pair with OpenSSH](#5-generate-a-publicprivate-key-pair-with-openssh) <br/>
+[6. Remove package and delete all ](#6-remove-package-and-delete-all) <br/>
 
 ## 1. Tls: failed to verify certificate: x509: certificate 
 ### First create an empty json fil

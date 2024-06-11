@@ -38,14 +38,14 @@ Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char  Dec  Oct  Hex | Char Dec  Oct 
 ```
 ```
 ASCII Name 	Description 	C Escape Sequence
-nul 	null byte 	\0
-bel 	bell character 	\a
-bs 	backspace 	\b
-ht 	horizontal tab 	\t
-np 	formfeed 	\f
-nl 	newline 	\n
-cr 	carriage return 	\r
-vt 	vertical tab 	
-esc 	escape 	
-sp 	space 	
+nul |	null |	byte |	\0
+bel |	bell |	character |	\a
+bs |	backspace |	\b
+ht |	horizontal |	tab 	\t
+np |	formfeed |	\f
+nl |	newline |	\n
+cr |	carriage |	return |	\r
+vt |	vertical |	tab 	
+esc |	escape 	
+sp |	space 	
 ```

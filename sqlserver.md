@@ -1,4 +1,4 @@
-##1. Show all table database.
+##1. Get column names from a table
 ```
 SELECT [name] AS [Column Name]
 FROM syscolumns

@@ -20,4 +20,19 @@ F:\Website BUILTIN\Administrators:(I)(F)
 
 Successfully processed 1 files; Failed processing 0 files
 
-## 3.
+## 3. System has not been booted with systemd as init system (PID 1).
+System has not been booted with systemd as init system (PID 1). Can't operate. Failed to connect to bus: Host is down.
+```
+sudo -e /etc/wsl.conf
+[boot]
+systemd=true
+```
+```
+wsl -t Ubuntu-redmine
+wsl -d Ubuntu-redmine
+```
+```
+useradd -m -G sudo -s /bin/bash "hoainh"
+hoainh ALL=(ALL) NOPASSWD: ALL
+%sudo  ALL=(ALL) NOPASSWD: ALL
+```

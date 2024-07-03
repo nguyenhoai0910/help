@@ -5,7 +5,7 @@
 [4. NTP client & /etc/chrony.conf](#4-ntp-client--etcchronyconf) <br/>
 [5. Generate a public/private key pair with OpenSSH](#5-generate-a-publicprivate-key-pair-with-openssh) <br/>
 [6. Remove package and delete all ](#6-remove-package-and-delete-all) <br/>
-[6. encrypt any file or directory with Mcrypt ](#7-encrypt-any-file-or-directory-with-mcrypt)  <br/>
+[7. encrypt any file or directory with Mcrypt ](#7-encrypt-any-file-or-directory-with-mcrypt)  <br/>
 
 ## 1. Tls: failed to verify certificate: x509: certificate 
 ### First create an empty json fil

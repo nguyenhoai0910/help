@@ -137,6 +137,7 @@ ssh-keygen -p -f ~/.ssh/id_ed25519
 Copy ssh key pub server remote:
 ```bash
 ssh-copy-id -i [ssh-key-location] [username]@[server-ip-address]
+ssh-copy-id -i /home/soadmin12/.ssh/id_ed25519.pub ocboper@10.98.42.41
 ```
   
 

@@ -134,7 +134,10 @@ If you forgot to add a password to your private key or if you want to change the
 ```bash
 ssh-keygen -p -f ~/.ssh/id_ed25519
 ```
-
+Copy ssh key pub server remote:
+```bash
+ssh-copy-id -i [ssh-key-location] [username]@[server-ip-address]
+```
   
 
 ## 6. Remove package and delete all  

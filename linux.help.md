@@ -139,7 +139,11 @@ Copy ssh key pub server remote:
 ssh-copy-id -i [ssh-key-location] [username]@[server-ip-address]
 ssh-copy-id -i /home/soadmin12/.ssh/id_ed25519.pub ocboper@10.98.42.41
 ```
-  
+SSH with private key:
+```bash
+ssh -i '/path/to/keyfile' username@server
+ssh -i '/home/soadmin12/.ssh/id_ed25519' ocboper@10.98.42.41
+```
 
 ## 6. Remove package and delete all  
 ```

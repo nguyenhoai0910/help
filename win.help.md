@@ -40,3 +40,9 @@ hoainh ALL=(ALL) NOPASSWD: ALL
 
 ## 4. Check md5 file zip
 ```powershell "Get-FileHash -Algorithm MD5 -Path (Get-ChildItem "*.zip" -Recurse) |Format-Table Algorithm,Hash,PATH "```
+
+## 5. Remove entries in the Windows Remote Desktop Connection client
+```start Registry Editor >>
+>> HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default
+>> remove entries
+```

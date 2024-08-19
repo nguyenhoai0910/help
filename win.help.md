@@ -3,6 +3,7 @@
 [2. CHECK permission user](#2-check-permission-user) <br/>
 [3. System has not been booted with systemd as init system (PID 1)](#3-system-has-not-been-booted-with-systemd-as-init-system-pid-1) <br/>
 [4. Check MD5 powerchell](#4-check-md5-file-zip) <br/>
+[5. Remove entries in the Windows Remote Desktop Connection client](#5-remove-entries-in-the-windows-remote-desktop-connection-client) <br/>
 ## 1. Switch Command Prompt and PowerShell on the Win+X Menu
 - Open Windows Settings by pressing Win+I. Select Personalization.
 - From the Personalization applet, select Taskbar. 

@@ -164,4 +164,11 @@ unzip <name-file>
 mcrypt -a wake OTP.PAM.sh
 mcrypt -d <name-file> 
 
+## 8. Reload Mount linux
+```bash
+sudo mount -av
+```
+## 8. ####
+## 8. ####
+## 8. ####
 ## 8. ####

@@ -153,9 +153,9 @@ sudo apt-get remove --purge packagename
 ## 7. encrypt any file or directory with Mcrypt
 https://linuxconfig.org/how-to-easily-encrypt-any-file-or-directory-with-mcrypt-on-linux-system  <br/>
 UBUNTU/DEBIAN
-```
+```bash
 sudo apt install mcrypt -y
-```
+
 oathtool --totp="type-totp" --digits=<digit 6 or 8> <code>
 
 zip -e OTP.PAM.zip OTP.PAM.sh
@@ -163,7 +163,7 @@ unzip <name-file>
 
 mcrypt -a wake OTP.PAM.sh
 mcrypt -d <name-file> 
-
+```
 ## 8. Reload Mount linux
 ```bash
 sudo mount -av```

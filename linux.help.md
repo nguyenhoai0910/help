@@ -166,9 +166,17 @@ mcrypt -d <name-file>
 
 ## 8. Reload Mount linux
 ```bash
-sudo mount -av
-```
-## 8. ####
+sudo mount -av```
+
+## 9. Check Architecture AMD or ARM Linux
+Debian and derivatives:
+```bash
+dpkg --print-architecture```
+
+On RPM-based systems:
+```bash
+rpm --eval '%{_arch}'```
+
 ## 8. ####
 ## 8. ####
 ## 8. ####

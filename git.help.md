@@ -12,7 +12,7 @@ git config --global alias.acommit '!git add -A && git commit'```
         acommit = !git add . && git commit
 [credential "https://gitdeploy.ocb.vn"]
             username = hoainh
-                helper = "!f() { echo "username=hoainh"; echo "password=glpat-N44qDA4nP-UbtJxBs29S"; };f"
+                helper = "!f() { echo "username=hoainh"; echo "password=glpat-*******-UbtJxBs29S"; };f"
 [user]
         name = Nguyen Huu Hoai
         email = hoainh@ocb.com.vn

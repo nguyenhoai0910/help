@@ -2,7 +2,8 @@
 git config --global user.name "Nguyen Huu Hoai"
 git config --global user.email "hoainh@ocb.com.vn"
 git config --global http.sslVerify false
-git config --global alias.acommit '!git add -A && git commit'```
+git config --global alias.acommit '!git add -A && git commit'
+```
 
 #vi ~/.gitconfig
 ```bash

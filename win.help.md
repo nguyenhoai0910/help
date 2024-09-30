@@ -40,6 +40,7 @@ hoainh ALL=(ALL) NOPASSWD: ALL
 ```
 
 ## 4. Check md5 file zip
+all file:
 ```powershell "Get-FileHash -Algorithm MD5 -Path (Get-ChildItem "*" -Recurse) |Format-Table Algorithm,Hash,PATH "```
 zip:
 ```powershell "Get-FileHash -Algorithm MD5 -Path (Get-ChildItem "*.zip" -Recurse) |Format-Table Algorithm,Hash,PATH "```

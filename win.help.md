@@ -13,15 +13,6 @@
 ## 2. CHECK permission user
 icacls folder/file name
 
-PS F:\Website> icacls F:\Website
-F:\Website BUILTIN\Administrators:(I)(F)
-           CREATOR OWNER:(I)(OI)(CI)(IO)(F)
-           NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
-           BUILTIN\Administrators:(I)(OI)(CI)(IO)(F)
-           BUILTIN\Users:(I)(OI)(CI)(RX)
-
-Successfully processed 1 files; Failed processing 0 files
-
 ## 3. System has not been booted with systemd as init system (PID 1).
 System has not been booted with systemd as init system (PID 1). Can't operate. Failed to connect to bus: Host is down.
 ```

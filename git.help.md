@@ -1,6 +1,6 @@
 ```bash
 git config --global user.name "Nguyen Huu Hoai"
-git config --global user.email "hoainh@ocb.com.vn"
+git config --global user.email "<mail>"
 git config --global http.sslVerify false
 git config --global alias.acommit '!git add -A && git commit'
 ```
@@ -11,12 +11,12 @@ git config --global alias.acommit '!git add -A && git commit'
         sslverify = false
 [alias]
         acommit = !git add . && git commit
-[credential "https://gitdeploy.ocb.vn"]
+[credential "https://<url.git.vn>"]
             username = hoainh
-                helper = "!f() { echo "username=hoainh"; echo "password=glpat-*******-UbtJxBs29S"; };f"
+                helper = "!f() { echo "username=<user>"; echo "password=<pass>"; };f"
 [user]
         name = Nguyen Huu Hoai
-        email = hoainh@ocb.com.vn
+        email = <mail>
 ```
 
 
